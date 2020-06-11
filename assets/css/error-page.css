@@ -1,6 +1,9 @@
-body{
+*{
     padding: 0;
     margin: 0;
+}
+
+body{
     background-color: rgb(21,51,241);
     background: linear-gradient(90deg, rgba(21,51,241,1) 30%, rgba(116,113,179,0.896796218487395) 79%);
     display: flex;
@@ -24,7 +27,8 @@ body{
 h1{
     font-size: 5em;
     color: rgb(13, 13, 44);
-    margin-top: 15%;
+    margin-top: 25%;
+    padding-bottom: 10%;
 }
 
 button{
@@ -49,6 +53,7 @@ button:hover{
 h3{
     /*line-height: 50px;*/
     font-size: 1.2em;
+    padding-bottom: 0.2em;
 }
 
 p{
@@ -56,6 +61,7 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     padding: 4%;
+    margin-bottom: 4%;
 
 }
 
@@ -63,7 +69,8 @@ p{
 @media (min-width: 414px){
     h1{
         font-size: 7em;
-        margin-top: 0;
+        margin-top: 10%;
+        margin-bottom: 0;
     }
 
     .content{
@@ -78,7 +85,8 @@ p{
     p{
         /*line-height: 1.5em;*/
         font-size: 1.3em;
-        padding: 8%;
+        padding: 5%;
+        margin: 0 12%;
     
     }
 
@@ -94,22 +102,26 @@ p{
 @media (min-width: 700px){
     h1{
         font-size: 9em;
-        margin-top: 18%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        padding: 0;
     }
 
     .content{
         width: 80vw;
-       height: 80vh;    
+       height: 80vh;
+       margin-top: 8%;    
     }
 
     h3{
         font-size: 1.9em;
+        margin-bottom: 0.5em;
     }
 
     p{
         /*line-height: 1.5em;*/
         font-size: 1.5em;
-        padding: 0 14%;
+        padding: 0 9%;
     
     }
 
@@ -117,7 +129,7 @@ p{
         padding: 3% 10%;
         font-size: 1.3em;
         margin-top: 4%;
-           
+        margin-bottom: 0; 
     }
 
 }
@@ -125,61 +137,71 @@ p{
 /* X Large screen*/
 @media (min-width: 1024px){
     h1{
-        font-size: 10em;
-        margin-bottom: 5%;
-        margin-top: 35%;
+        font-size: 9em;
+        margin-bottom: 4%;
+        margin-top: 8%;
+        padding-bottom: 0;
     }
 
     .content{
         width: 70vw;
         height: 85vh;
+        margin-top: 5%;
     }
 
     h3{
         font-size: 2.1em;
+        padding-bottom: 0.3em;
     }
 
     p{
         /*line-height: 1.5em;*/
         font-size: 1.7em;
-        padding: 0 21%;
+        padding: 0 20%;
+        margin: 0;
     
     }
 
     button{
         padding: 3% 10%;
-        font-size: 1.5em;
-        margin-top: 7%;
+        font-size: 1.3em;
+        margin-top: 4%;
+        margin-bottom: 0; 
            
     }
 
 }
 
 /* XX Large screen*/
-@media (min-width: 1025px){
+@media (min-width: 1400px){
     h1{
         font-size: 10em;
-        margin-bottom: 5%;
-        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-top: 3%;
     }
 
     .content{
         width: 65vw;
-        height: 75vh;    
+        height: 75vh; 
+        margin-top: 6%;   
+    }
+
+    h3{
+        font-size: 2.1em;
+        padding-bottom: 0.5em;
     }
 
     p{
         /*line-height: 1.5em;*/
         font-size: 1.7em;
         padding: 0 5%;
-    
     }
 
     button{
         padding: 2% 6%;
-        font-size: 1.5em;
-        margin-top: 7%;
-           
+        font-size: 1.3em;
+        margin-top: 3%;
+        margin-bottom: 0;      
     }
 
 }
